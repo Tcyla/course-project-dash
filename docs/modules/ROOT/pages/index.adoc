@@ -96,10 +96,10 @@ Using Docker, package the application
 . generate a docker image `feelpp-gui:<your name>` where your name is used are the tag to identify your app
 . start your app by default on port `80`
 
-.`fem-gui.py`
+.`feelpp-gui.py`
 [source]
 ----
-// your code fem-gui.py here
+// your code feelpp-gui.py here
 if __name__=='__main__':
     app.run_server(port=80)
 ----
@@ -107,7 +107,7 @@ if __name__=='__main__':
 and in the Dockerfile
 [source,docker]
 ----
-CMD ["python3 fem-gui.py"]
+CMD ["python3 feelpp-gui.py"]
 ----
 
 
