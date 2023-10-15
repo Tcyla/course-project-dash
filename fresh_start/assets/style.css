@@ -1,0 +1,12 @@
+.terminal {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1.2em;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+    overflow: auto;
+    height: 100%;
+}
+

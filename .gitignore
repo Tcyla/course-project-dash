@@ -44,4 +44,6 @@ jupyter/
 auto-save-list
 tramp
 .\#*
-.venv/
+env/
+feelppdb
+__pycache__/

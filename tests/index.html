@@ -1,0 +1,34 @@
+<!-- FILEPATH: /home/u4/csmi/2022/lelievre/course-project-dash/tests/index.html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Terminal Output</title>
+        <style>
+            /* Terminal style */
+            #terminal {
+                background-color: black;
+                color: white;
+                font-family: monospace;
+                padding: 10px;
+                white-space: pre-wrap;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="code">
+            <pre><code>
+                // Your code goes here
+            </code></pre>
+        </section>
+        <section id="terminal"></section>
+        <script>
+            // Execute code and display output in terminal
+            const terminal = document.getElementById("terminal");
+            const code = document.getElementById("code").textContent;
+            const output = eval(code);
+            terminal.textContent = output;
+        </script>
+    </body>
+</html>
